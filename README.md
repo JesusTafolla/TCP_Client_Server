@@ -28,15 +28,18 @@ El cliente TCP permite al usuario ingresar mensajes, enviarlos al servidor y mos
 
 ### 1. Ejecutar el Servidor
 En una terminal, navega al directorio donde se encuentra `server.py` y ejecuta: 
-bash python server.py
+```bash
+python server.py
+```
 
 ### 2. Al ejecutarse el server la salida esperada deberia de ser
 Servidor TCP activo en localhost:5000 y esperando conexiones...
 
 ### 3. Ejecutar el Cliente
 En una terminal, navega al directorio donde se encuentra `server.py` y ejecuta: 
-bash python client.py
-
+```bash
+ python client.py
+```
 ### 4. Al ejecutarse el cliente la salida esperada deberia de ser
 Cliente conectado al servidor en localhost:5000
 Ingresa un mensaje:
